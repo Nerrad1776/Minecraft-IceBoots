@@ -42,7 +42,7 @@ public class IceBoots
     }
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
-        if(event.getTab() == CreativeModeTabs.INGREDIENTS)
+        if(event.getTab() == CreativeModeTabs.COMBAT)
         {
             event.accept(ModItems.ICEBOOTS);
         }
